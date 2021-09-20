@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <style>
+    body{
+    background-image:url("p.jpg");
+    background-size:cover;
+    }
+    label{
+    color:black;
+    font-weight:bold;
+    }
+    #new{
+    margin-left:40%;
+    margin-top:2%;
+    }
+    input[type="submit"]{
+    margin-left:8%;
+    color:black;
+    width:40%; 
+    height:8%;
+    background-color:#ff9933;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    border:2px solid #ff3399;
+    }
+    input[type="text"]{
+    width:30%;
+    height:5%;
+    }
+    input[type="password"]{
+    width:30%;
+    height:5%;
+    }
+   
+</style>
+    <script src="valid.js"></script>
+</head>
+<body>
+<form id="new" method="post" name="myform" action="log.html">
+        <label>User Name :</label>
+        <input type="text" name="username" id="username" 
+        placeholder="enter your name" style="margin-left:3%;border:2px solid black;"><br><br>
+        <label>Email id :</label>
+        <input type="text" name="email" id="email" 
+        placeholder="enter your email" style="margin-left:5%;border:2px solid black;"><br><br>
+        <label>Password :</label>
+        <input type="password" name="password" id="password" 
+        placeholder="enter your password" style="margin-left:4%;border:2px solid black;"><br><br> 
+        <input type="submit" value="Login" id="submit" 
+        onclick="validate()"/>
+        </form>
+</body>
+</html>

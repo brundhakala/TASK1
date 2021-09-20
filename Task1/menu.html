@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    img{
+        width:250px;
+        height:300px;
+    }
+    .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height:100%;
+}
+.o{
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease; 
+}
+.p:hover .o{
+    bottom: 0;
+  height:100%;
+}
+table, th, td {
+  border:1px solid black;
+}
+
+
+</style>
+</head>
+    <img src="biriyani.png">
+   <img src="pizza.jfif">
+    <img src="idlydosa.jpg">
+<img src="icecreams.jpg">
+    <img src="noodles.jpg">
+    <div class="container">
+        <img src="price.jpg" style="width:100%;">
+        <div class="overlay">
+          <table style="width:100%;Height:100%;">
+            <tr>
+                <th>Recipies</th>
+                <th>Rate</th>
+                <th>Delivery</th>
+              </tr>
+              <tr>
+                <td>Biriyani</td>
+                <td>600</td>
+                <td>Door Delivery</td>
+              </tr>
+              <tr>
+                <td>Pizza</td>
+                <td>1000</td>
+                <td>Door Delivery</td>
+              </tr> 
+              <tr>
+                <td>Idly,Dosa</td>
+                <td>100</td>
+                <td>Door Delivery</td>
+              </tr> 
+              <tr>
+                <td>Icecream,juices</td>
+                <td>100-200</td>
+                <td>Door Delivery</td>
+              </tr> 
+              <tr>
+                <td>Noodles</td>
+                <td>400</td>
+                <td>Door Delivery</td>
+              </tr> 
+
+          </table>
+        </div>
+      </div> 
+    
+</body> 
+</html>

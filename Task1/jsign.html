@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-image:url("veg.jpg");
+            background-size: cover;
+        }
+       label{
+    color:black;
+    font-weight:bold;
+    }
+    #n{
+    margin-left:40%;
+    margin-top:2%;
+    }
+    input[type="submit"]{
+    margin-left:8%;
+    color:black;
+    width:40%; 
+    height:8%;
+    background-color:#ff9933;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    border:2px solid #ff3399;
+    }
+    input[type="text"]{
+    width:30%;
+    height:5%;
+    }
+    input[type="password"]{
+    width:30%;
+    height:5%;
+    } 
+    </style>
+    <script src="sign.js"></script>
+</head>
+<body>
+    <form id="n" method="post" name="form" action="sw.html">
+        <label>Name :</label>
+        <input type="text" name="name" id="username" placeholder="enter your name" style="margin-left:3%;border:2px solid black;"><br><br>
+        <label>Email id :</label>
+        <input type="text" name="email" id="email" 
+        placeholder="enter your email" style="margin-left:5%;border:2px solid black;"><br><br>
+        <label>Phone number:</label>
+        <input type="number" name="num" id="num" 
+        placeholder="enter your number" style="margin-left:4%;border:2px solid black;"><br><br> 
+        <input type="submit" value="Signup" id="submit" 
+        onclick="valid()"/>
+        </form>
+</body>
+</html>
